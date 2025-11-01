@@ -1,0 +1,19 @@
+.bg__grey {
+
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 480px;
+    height: 600px;
+
+    z-index: '-1';
+}
+
+.grey__element {
+    
+    width: 100%;
+    height: 100%;
+
+    background: hsl(270, 20%, 96%);
+    border-radius: 100% 100% 0 0;
+}
