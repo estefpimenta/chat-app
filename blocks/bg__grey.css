@@ -1,12 +1,12 @@
 .bg__grey {
 
-    position: absolute;
+    position: absolute; /* pq nao relative? */
     bottom: -100px;
     right: -150px;
     width: 480px;
     height: 600px;
 
-    z-index: '-1';
+    
 }
 
 .grey__element {
