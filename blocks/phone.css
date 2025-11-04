@@ -15,6 +15,8 @@
     z-index: 10;
     margin-top: 30px;
     margin-left: 250px;
+
+    padding: 0;
 }
 
 
@@ -26,4 +28,24 @@
     background: #fff;
 
     z-index: 20;
+}
+
+.phone__header {
+    width: 100%;
+    height: 60px;
+    z-index: 19;
+    margin-top: -20px;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(180deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 100%);
+}
+
+phone__header-nav {
+    display: flex;
+    padding: 0;
+}
+
+.phone__header-button {
+    width: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
