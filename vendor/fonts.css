@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "";
-    src: url() format(""),     
+    font-family: "Rubik Bold";
+    src: url(./fonts/Rubik-Bold.ttf) format("trueType"),     
 }
 
 @font-face {
-    font-family: "";
-    src: url() format(""),
+    font-family: "Rubik Medium";
+    src: url(./fonts/Rubik-Medium.ttf) format("trueType"),
 }
 
 @font-face {
-    font-family: "";
-    src: url() format("")
+    font-family: "Rubik Regular";
+    src: url(./fonts/Rubik-Regular.ttf) format("trueType"),
 }
