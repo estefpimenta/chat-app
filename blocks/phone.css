@@ -2,8 +2,8 @@
 
 .phone {
 
-    width: 250px;
-    height: 450px;
+    width: 300px;
+    height: 550px;
     border: 16px solid #fff;
     border-radius: 36px;
     box-shadow: 4px 4px 10px 2px rgb(0 0 0 / 20%);
@@ -13,7 +13,7 @@
     flex-direction: column;
 
     z-index: 10;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 250px;
 
     padding: 0;
@@ -39,13 +39,64 @@
     background: linear-gradient(180deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 100%);
 }
 
-phone__header-nav {
+.phone__header-nav {
     display: flex;
+    flex-direction: row;
     padding: 0;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .phone__header-button {
-    width: 10px;
-    margin-top: 30px;
-    margin-left: 15px;
+    width: 12px;
+    margin-top: 20px;
+    margin-left: 15px; 
 }
+
+.phone__header-userpic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 100%, 100%);;
+    margin-top: 22px;
+    margin-left: -70px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+
+.phone__header-userinfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    margin-left: -95px;
+    gap: 2px;
+}
+
+.user__name {
+    font-family: "Rubik Bold", sans-serif;
+    font-size: 12px;
+    color: hsl(0, 100%, 100%);
+}
+
+.user__availibility {
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 10px;
+    color: hsl(0, 100%, 100%);
+}
+
+.phone__header-ul {  
+    color: hsl(0, 100%, 100%);
+    list-style-type: none;
+    margin-top: 22px;
+}
+
+.ul-dot {
+    width: 4px;
+    height: 4px;
+    background: hsl(0, 100%, 100%);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+

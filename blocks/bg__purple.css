@@ -1,12 +1,12 @@
 .bg__purple {
 
-    position: absolute; /* pq nao relative? */
+    position: absolute;
     top: -100px;
     left: -100px;
-    width: 480px;
-    height: 600px;
+    width: 530px;
+    height: 800px;
 
-    z-index: '-1';  /* parece não funcionar */
+    z-index: '-1'; 
 }
 
 .purple__element {
