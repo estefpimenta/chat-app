@@ -60,3 +60,33 @@
     font-family: "Rubik Bold", sans-serif;
     font-size: 16px;
 }
+
+.phone__footer {
+    align-self: center;
+    background-color: #fff;
+    color: hsl(270, 7%, 64%);
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 90%;
+    
+    
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: hsl(271, 36%, 24%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-button-image {
+    width: 12px;
+}
