@@ -62,12 +62,12 @@
 }
 
 .phone__footer {
-    align-self: center;
+    align-self: start;
     background-color: #fff;
     color: hsl(270, 7%, 64%);
     padding: 10px 15px;
     border-radius: 20px;
-    max-width: 90%;
+    width: 100%;
     
     
     font-family: "Rubik Regular", sans-serif;
@@ -75,6 +75,7 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .message-button {
