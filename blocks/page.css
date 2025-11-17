@@ -6,7 +6,6 @@ body {
 .page {
   max-width: 1600px;
   margin: 0 auto;
-  min-height: 100vh;
   background-color:hsla(0, 0%, 100%, 0);
 
   display: flex; 

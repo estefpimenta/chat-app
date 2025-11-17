@@ -1,7 +1,7 @@
 .bg__grey {
 
     position: absolute; /* pq nao relative? */
-    bottom: -100px;
+    bottom: 0px;
     right: -150px;
     width: 500px;
     height: 600px;
