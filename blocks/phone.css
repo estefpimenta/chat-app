@@ -1,4 +1,9 @@
 
+.phone-wrapper {
+    transform: scale(0.75);
+    transform-origin: top left;
+}
+
 
 .phone {
 
@@ -13,8 +18,8 @@
     flex-direction: column;
 
     z-index: 10;
-    margin-top: 100px;
-    margin-left: 250px;
+    margin-top: 15%;
+    margin-left: 100%;
 
     padding: 0;
 }

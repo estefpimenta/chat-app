@@ -3,8 +3,9 @@
     position: absolute; /* pq nao relative? */
     bottom: -100px;
     right: -150px;
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 600px;
+
 
     z-index: -1;
 }
@@ -21,3 +22,10 @@
 
 
 /* media - queries */
+
+@media screen and (max-width: 768px) {
+    .bg__grey {
+        display: none;
+    }
+    
+}
