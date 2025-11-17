@@ -6,7 +6,7 @@
     width: 600px;
     height: 800px;
 
-    
+    z-index: -1;
 }
 
 .grey__element {
@@ -17,3 +17,7 @@
     background: hsl(270, 20%, 96%);
     border-radius: 100% 100% 0 0;
 }
+
+
+
+/* media - queries */
