@@ -32,72 +32,104 @@
 
 .phone__header {
     width: 100%;
-    height: 60px;
-    z-index: 19;
+    height: 70px;
     margin-top: -20px;
+
+    z-index: 19;
+    
     border-radius: 20px 20px 0 0;
     background: linear-gradient(180deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 100%);
     box-shadow: 0px 2px 20px 1px rgb(0 0 0 / 15%);
+
+    /*  */
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
 }
 
 .phone__header-nav {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     padding: 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
 
 }
 
 .phone__header-button {
-    width: 12px;
+    /* width: 12px;
     margin-top: 20px;
-    margin-left: 15px; 
+    margin-left: 15px;  */
+
+    width: 12px;
 }
 
 .phone__header-userpic {
-    width: 30px;
+    /* width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 2px solid hsl(0, 100%, 100%);;
     margin-top: 22px;
     margin-left: -70px;
     margin-right: 10px;
+    object-fit: cover; */
+
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid white;
     object-fit: cover;
 }
 
 
 .phone__header-userinfo {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     margin-top: 22px;
     margin-left: -95px;
+    gap: 2px; */
+
+    display: flex;
+    flex-direction: column;
     gap: 2px;
 }
 
 .user__name {
     font-family: "Rubik Bold", sans-serif;
     font-size: 12px;
-    color: hsl(0, 100%, 100%);
+    color: white;
+    font-weight: 700;
 }
 
 .user__availibility {
     font-family: "Rubik Regular", sans-serif;
     font-size: 10px;
-    color: hsl(0, 100%, 100%);
+    color: white;
+    opacity: 0.8;
 }
 
 .phone__header-ul {  
-    color: hsl(0, 100%, 100%);
+    /* color: hsl(0, 100%, 100%);
     list-style-type: none;
-    margin-top: 22px;
+    margin-top: 22px; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    list-style: none;
+    margin-left: auto; 
 }
 
 .ul-dot {
     width: 4px;
     height: 4px;
-    background: hsl(0, 100%, 100%);
     border-radius: 50%;
-    margin-right: 8px;
+    background: white;
 }
 
