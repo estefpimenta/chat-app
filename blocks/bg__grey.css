@@ -1,10 +1,10 @@
 .bg__grey {
 
     position: absolute; /* pq nao relative? */
-    bottom: 0px;
-    right: -150px;
-    width: 500px;
-    height: 600px;
+    bottom: 100px;
+    right: -100px;
+    width: 450px;
+    height: 550px;
 
 
     z-index: -1;
