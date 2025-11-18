@@ -138,3 +138,15 @@
     background: white;
 }
 
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+   
+   .phone {
+        margin-left: 0;
+        
+    }  
+    
+    
+}

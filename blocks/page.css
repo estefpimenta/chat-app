@@ -15,14 +15,11 @@ body {
 
 /* media - queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .page {
         flex-direction: column;
         align-items: center;
     }
     
-    /* .section {
-        position:;
-        
-    }  problemas com esse pososcinamento */   
+    
 }
