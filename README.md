@@ -5,7 +5,7 @@ Este projeto é uma solução para o desafio **Chat App CSS Illustration** do [F
 ---
 
 ## 📸 Preview  
-![Preview](./preview.jpg)
+<img src="./preview.jpg" width="400" alt="Preview do projeto">
 
 ---
 
