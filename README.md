@@ -5,7 +5,7 @@ Este projeto é uma solução para o desafio **Chat App CSS Illustration** do [F
 ---
 
 ## 📸 Preview  
-*(adicione um print aqui quando quiser)*
+![Preview](./preview.png)
 
 ---
 
@@ -47,3 +47,9 @@ Reproduzir o layout proposto pelo Frontend Mentor utilizando **HTML + CSS**, foc
 - Controle de proporções e redimensionamento de imagens e blocos.  
 
 
+## 📚 Possíveis Melhorias Futuras
+
+- Adicionar pequenas animações à interface.  
+- Criar versão interativa com **JavaScript**.  
+- Refazer o projeto em **React**, usando componentes reutilizáveis.  
+- Ajustar ainda mais a responsividade para telas intermediárias.  
