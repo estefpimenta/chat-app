@@ -18,9 +18,7 @@ Reproduzir o layout proposto pelo Frontend Mentor utilizando **HTML + CSS**, foc
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**  
-- **CSS3** 
--- **Flexbox**  
--- **Media Queries** 
+- **CSS3** (**Flexbox**, **Media Queries**) 
 - **Metodologia BEM**  
 
 
